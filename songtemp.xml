@@ -3,62 +3,62 @@
 <music> 
 
       <song>
-        <title>Bad Guy</title> 
-        <artist>Billie Elilish</artist> 
+          <title>Bad Guy</title> 
+          <artist>Billie Elilish</artist> 
+          <year>2019</year> 
+          <genre>pop</genre> 
+          <diff>
+            <start type='avg'> 2020 </start>
+            <end type="avg"> 2021 </end>
+          </diff>
+          <images>
+                <image size="thumb" type="jpeg" url="../img/3">1</image>
+                <image size="large" type="jpeg">2</image>
+                <image size="full" type="jpeg">3</image>
+          </image>
+      </song>
+
+      <song>
+        <title>Gods Plan</title> 
+        <artist>Drake</artist> 
         <year>2019</year> 
-        <genre>pop</genre> 
+        <genre>Hiphop</genre> 
         <diff>
-          <start type='avg'> 2020 </start>
-          <end type="avg"> 2021 </end>
+            <start type='avg'> 2019 </start>
+            <end type="avg"> 2020 </end>
         </diff>
         <images>
-              <image size="thumb" type="jpeg" url="../img/3">1</image>
-              <image size="large" type="jpeg">2</image>
-              <image size="full" type="jpeg">3</image>
-        </image>
-      </song>
-
-      <song>
-      <title>Gods Plan</title> 
-      <artist>Drake</artist> 
-      <year>2019</year> 
-      <genre>Hiphop</genre> 
-        <diff>
-          <start type='avg'> 2019 </start>
-          <end type="avg"> 2020 </end>
-        </diff>
-        <images>
-              <image size="thumb" type="jpeg" url="../img/2">1</image>
-              <image size="large" type="jpeg">2</image>
-              <image size="full" type="jpeg">3</image>
-        </image>
-      </song>
-
-      <song>
-      <title>Stronger</title> 
-      <artist>Kanye West</artist> 
-      <year>2005</year> 
-      <genre>Hiphop</genre> 
-      <diff>
-        <start type='avg'> 2005 </start>
-        <end type="avg"> 2006 </end>
-        </diff>
-      <images>
-            <image size="thumb" type="jpeg" url="../img/1">1</image>
+            <image size="thumb" type="jpeg" url="../img/2">1</image>
             <image size="large" type="jpeg">2</image>
             <image size="full" type="jpeg">3</image>
-      </image>
+        </image>
       </song>
 
       <song>
-      <title>Flashing Lights</title> 
-      <artist>Kanye West</artist> 
-      <year>2004</year> 
-      <genre>Rap</genre> 
-      <diff>
-        <start type='avg'> 2004 </start>
-        <end type="avg"> 2005 </end>
-      </diff>
+        <title>Stronger</title> 
+        <artist>Kanye West</artist> 
+        <year>2005</year> 
+        <genre>Hiphop</genre> 
+        <diff>
+          <start type='avg'> 2005 </start>
+          <end type="avg"> 2006 </end>
+        </diff>
+        <images>
+              <image size="thumb" type="jpeg" url="../img/1">1</image>
+              <image size="large" type="jpeg">2</image>
+              <image size="full" type="jpeg">3</image>
+        </image>
+      </song>
+
+      <song>
+        <title>Flashing Lights</title> 
+        <artist>Kanye West</artist> 
+        <year>2004</year> 
+        <genre>Rap</genre> 
+        <diff>
+          <start type='avg'>2004</start>
+          <end type="avg">2005</end>
+        </diff>
         <images>
             <image size="thumb" type="jpeg" url="../img/2">1</image>
             <image size="large" type="jpeg">2</image>
@@ -74,6 +74,6 @@
         </description>
   </description>
 
-  <overview type="general" url="..."> Songs </overview>
+  <overview type="general" url="https://en.wikipedia.org/wiki/Kanye_West"> Kanye West </overview>
 
 </music>
