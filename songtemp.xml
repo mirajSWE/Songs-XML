@@ -2,55 +2,78 @@
 <?xml-stylesheet type = "text/xsl" href = "song.xsl"?> 
 <music> 
 
-    <song>
-      <title>Bad Guy</title> 
-      <artist>Billie Elilish</artist> 
+      <song>
+        <title>Bad Guy</title> 
+        <artist>Billie Elilish</artist> 
+        <year>2019</year> 
+        <genre>pop</genre> 
+        <diff>
+          <start type='avg'> 2020 </start>
+          <end type="avg"> 2021 </end>
+        </diff>
+        <images>
+              <image size="thumb" type="jpeg">1</image>
+              <image size="large" type="jpeg">2</image>
+              <image size="full" type="jpeg">3</image>
+        </image>
+      </song>
+
+      <song>
+      <title>Gods Plan</title> 
+      <artist>Drake</artist> 
       <year>2019</year> 
-      <genre>pop</genre> 
-      
+      <genre>Hiphop</genre> 
+        <diff>
+          <start type='avg'> 2019 </start>
+          <end type="avg"> 2020 </end>
+        </diff>
+        <images>
+              <image size="thumb" type="jpeg">1</image>
+              <image size="large" type="jpeg">2</image>
+              <image size="full" type="jpeg">3</image>
+        </image>
+      </song>
+
+      <song>
+      <title>Stronger</title> 
+      <artist>Kanye West</artist> 
+      <year>2005</year> 
+      <genre>Hiphop</genre> 
       <diff>
-      
-      <start type='avg'> 2020 </start>
-      <end type="avg"> 2021 </end>
-      
+        <start type='avg'> 2005 </start>
+        <end type="avg"> 2006 </end>
+        </diff>
+      <images>
+            <image size="thumb" type="jpeg">1</image>
+            <image size="large" type="jpeg">2</image>
+            <image size="full" type="jpeg">3</image>
+      </image>
+      </song>
+
+      <song>
+      <title>Flashing Lights</title> 
+      <artist>Kanye West</artist> 
+      <year>2004</year> 
+      <genre>Rap</genre> 
+      <diff>
+        <start type='avg'> 2004 </start>
+        <end type="avg"> 2005 </end>
       </diff>
-    </song>
-
-    <song>
-     <title>Gods Plan</title> 
-     <artist>Drake</artist> 
-     <year>2019</year> 
-     <genre>Hiphop</genre> 
-    </song>
-
-    <song>
-     <title>Stronger</title> 
-     <artist>Kanye West</artist> 
-     <year>2005</year> 
-     <genre>Hiphop</genre> 
-    </song>
-
-    <song>
-     <title>Flashing Lights</title> 
-     <artist>Kanye West</artist> 
-     <year>2004</year> 
-     <genre>Rap</genre> 
-    </song>
+        <images>
+            <image size="thumb" type="jpeg">1</image>
+            <image size="large" type="jpeg">2</image>
+            <image size="full" type="jpeg">3</image>
+        </image>
+      </song>
 
 
-<description>
+  <description>
+        <description type='meaning'>
+                  Just exmaple text that can be used to explain 
+                  the meaning of each song that is listed
+        </description>
+  </description>
 
-      <description type='meaning'>
-                Just exmaple text that can be used to explain 
-                the meaning of each song that is listed
-      </description>
-
-</description>
-
-
-
-<overview type="general" url="..."> Songs </overview>
-
-
+  <overview type="general" url="..."> Songs </overview>
 
 </music>
