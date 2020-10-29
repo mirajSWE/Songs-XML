@@ -75,7 +75,7 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
    <td><xsl:value-of select="count(./image)"/></td>
 
       <td>
-         <a href=""><xsl:value-of select="artist[@type='.jpeg'][position() = last()] = last ()]" /></a>
+         <a href=""><xsl:value-of select="artist[@type='2.jpeg'][position() = last()] = last ()]" /></a>
       </td>
 
 </xsl:template>  
@@ -109,7 +109,7 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
 
     <xsl:attribute name="src">
 
-    <xsl:value-of select="image[@type='jpg' and @size='thumb']/@url">
+    <xsl:value-of select="image[@type='jpg' and @size='thumb']/@../img/1">
 
     <xsl:attribute>
 

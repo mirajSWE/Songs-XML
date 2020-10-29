@@ -12,7 +12,7 @@
           <end type="avg"> 2021 </end>
         </diff>
         <images>
-              <image size="thumb" type="jpeg">1</image>
+              <image size="thumb" type="jpeg" url="../img/3">1</image>
               <image size="large" type="jpeg">2</image>
               <image size="full" type="jpeg">3</image>
         </image>
@@ -28,7 +28,7 @@
           <end type="avg"> 2020 </end>
         </diff>
         <images>
-              <image size="thumb" type="jpeg">1</image>
+              <image size="thumb" type="jpeg" url="../img/2">1</image>
               <image size="large" type="jpeg">2</image>
               <image size="full" type="jpeg">3</image>
         </image>
@@ -44,7 +44,7 @@
         <end type="avg"> 2006 </end>
         </diff>
       <images>
-            <image size="thumb" type="jpeg">1</image>
+            <image size="thumb" type="jpeg" url="../img/1">1</image>
             <image size="large" type="jpeg">2</image>
             <image size="full" type="jpeg">3</image>
       </image>
@@ -60,7 +60,7 @@
         <end type="avg"> 2005 </end>
       </diff>
         <images>
-            <image size="thumb" type="jpeg">1</image>
+            <image size="thumb" type="jpeg" url="../img/2">1</image>
             <image size="large" type="jpeg">2</image>
             <image size="full" type="jpeg">3</image>
         </image>
