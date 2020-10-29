@@ -1,5 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?> 
 <xsl:stylesheet version = "1.0" 
+
+
 xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">  
    
    <xsl:template match = "/"> 
@@ -46,7 +48,98 @@ xmlns:xsl = "http://www.w3.org/1999/XSL/Transform">
                      Artist <span class="artist"><xsl:value-of select="."/><span>
                <xsl:template>
 
-               
+
+
+<xsl: apply-templates select="music[.song/year] &lt; 2019]">
+
+      <xsl:sort select='year' order='descending' data-type="number" />
+
+      
+      <xsl: music[3] /> 
+
+</xsl:apply-template>
+
+
+<xsl: apply-templates>
+
+   <xsl: add position() = (3) /> 
+   <xsl: music[3] /> 
+
+</xsl:apply-template>        
+
+
+<xsl:choose>
+
+      <xsl:when test="year[@range='end']">
+         <xsl: value-of select="year[@range='start'] - year[@range='end']"/>
+      </xsl: when>
+
+
+      <xsl:otherwise>
+         <xsl:value-of select="year[@range='start'] + 2019" />
+      </xsl:otherwise>
+
+</xsl:choose>
+
+
+<xsl:template match="image">
+
+<td><xsl:value-of select="count(./image)"/></td>
+
+   <td>
+      <a href=""><xsl:value-of select="artist[@type='.jpeg'][position() = last()] = last ()]" /></a>
+   </td>
+
+</xsl:template>  
+
+<xsl:template match="year">
+
+
+   <td>
+
+      <xsl:value-of select="format-number(./year - year, '20')"/> <sup>20</sup>
+
+   </td>
+
+</xsl:template>
+
+<xsl:template match "diff">
+
+         <td>
+
+         approx. <xsl:value-of select="floor(./year - ./diff)"/> <sup></sup>
+
+         <td>
+
+</xsl:template>
+
+<xsl:template match="description/description[@type='meaning']">
+
+         <td>
+
+            <xsl:value-of select="substring(.,1.75)"/>
+
+            ...
+
+         </td>
+
+</xsl:template>
+
+<xsl value-of select="translate(.,'s','s')"/>
+
+
+<xsl: value-of select="sum(./start) div count(./start)"/>
+
+<img>
+
+    <xsl: attribute name="src">
+
+    <xsl: value-of select="image[@type='jpg' and @size='thumb']/@url">
+
+    <xsl:attribute>
+
+</img>
+
 
 </xsl:stylesheet>
 

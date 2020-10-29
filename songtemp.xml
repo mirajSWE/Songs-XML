@@ -7,6 +7,13 @@
       <artist>Billie Elilish</artist> 
       <year>2019</year> 
       <genre>pop</genre> 
+      
+      <diff>
+      
+      <start type='avg'> 2020 </start>
+      <end type="avg"> 2021 </end>
+      
+      </diff>
     </song>
 
     <song>
@@ -29,6 +36,21 @@
      <year>2004</year> 
      <genre>Rap</genre> 
     </song>
+
+
+<description>
+
+      <description type='meaning'>
+                Just exmaple text that can be used to explain 
+                the meaning of each song that is listed
+      </description>
+
+</description>
+
+
+
+<overview type="general" url="..."> Songs </overview>
+
 
 
 </music>

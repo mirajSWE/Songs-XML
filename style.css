@@ -1,0 +1,35 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif ;
+    vertical-align: baseline;      
+    
+    text-decoration: none;
+}
+
+body 
+{
+    width: 100%;
+    background-color: ghostwhite;
+    background-position: fixed;
+    background-image: no-repeat;
+    background-size: cover;   
+}
+
+
+.text
+{
+    position: relative;
+    height: 90vh;
+    width: 90vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 5%;
+  
+}
